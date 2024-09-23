@@ -1,0 +1,52 @@
+.home-main-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding-top: 10rem;
+    min-height: 600px;
+    color: white;
+}
+
+.home-main {
+    width: 80%;
+    text-align: start;
+
+}
+
+.home-main>h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.see-how-btn {
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.see-how-btn:after {
+    content: "→";
+    /* Arrow symbol */
+    display: inline-block;
+    margin-left: 10px;
+    opacity: 0;
+    transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transform: translateX(-10px);
+}
+
+.see-how-btn:hover:after {
+    opacity: 1;
+    transform: translateX(0);
+    /* Moves the arrow smoothly */
+}
