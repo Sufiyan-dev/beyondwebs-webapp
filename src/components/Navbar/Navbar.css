@@ -1,6 +1,7 @@
 /* Navbar.css */
 
 .navbar {
+    /* display: flex; */
     position: fixed;
     top: 0;
     width: 100%;
@@ -8,6 +9,10 @@
     color: #fff;
     padding: 20px 40px;
     transition: all 0.3s ease;
+}
+
+.navbar:hover {
+    background-color: black !important; /* Use !important to ensure it overrides other rules */
 }
 
 .navbar.scrolled {
@@ -19,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
