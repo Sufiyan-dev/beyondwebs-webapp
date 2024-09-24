@@ -1,0 +1,122 @@
+.services-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    transition: background-color 0.5s ease; 
+    min-height: 40rem;
+    padding-top: 10rem;
+}
+
+.services {
+    width: 80%;
+    text-align: left;
+    /* Align text to the left */
+}
+
+
+.title-small {
+    position: relative;
+    /* Make the div a positioning context for the pseudo-element */
+    display: inline-block;
+    /* Ensure the width is only as wide as the content */
+    padding-bottom: 25px;
+    /* Space between the text and the underline */
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+/* Pseudo-element for the underline effect */
+.title-small::after {
+    content: '';
+    position: absolute;
+    /* Position it absolutely */
+    left: 2.75rem;
+    /* Align to the left of the title */
+    bottom: 0;
+    /* Align to the bottom of the title */
+    height: 1px;
+    /* Thickness of the underline */
+    background-color: rgb(0, 0, 0);
+    /* Color of the underline */
+    width: 500%;
+    /* Width can be adjusted as needed */
+    transform: translateX(-10%);
+    /* Center the underline if it's wider than the text */
+    transition: width 0.3s ease;
+    /* Optional: transition effect */
+}
+
+.services>h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin: 2rem 0 0 0;
+
+    line-height: 1.25;
+}
+
+
+/* Service detail page */
+.services-container {
+    padding: 20px;
+    margin-left: 20px;
+    /* Margin on the left side */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px; /* Space between items horizontally */
+    row-gap: 30px; /* Space between items vertically */
+    /* gap: 20px; */
+}
+
+.category-container {
+    /* Spacing between categories */
+    margin-bottom: 0px;
+}
+
+.category-title {
+    margin-bottom: 10px;
+    /* Spacing between title and list */
+    font-size: 2rem;
+}
+
+.items-grid {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   */
+    /* Space between items */
+    list-style-type: disc;
+    /* Use bullet points */
+    padding-left: 20px;
+    /* Indentation for the bullet points */
+}
+
+.item {
+   font-weight: 300;
+}
+
+
+/* Tag line */
+
+.tag-line-wrapper {
+    padding-bottom: 2rem;
+}
+
+.tag-line {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.tag-line-wrapper > button {
+    background-color: black;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.tag-line-wrapper > button:hover {
+    box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; /* Adjust the values as needed */
+    transition: box-shadow 0.7s ease; /* Smooth transition for the glow effect */
+}
