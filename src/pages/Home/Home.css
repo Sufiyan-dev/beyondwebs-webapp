@@ -3,18 +3,18 @@
     justify-content: center;
     background-color: gray;
     padding-top: 10rem;
-    min-height: 600px;
+    min-height: 40rem;
     color: white;
 }
 
 .home-main {
-    width: 80%;
+    width: 90%;
     text-align: start;
 
 }
 
 .home-main>h1 {
-    font-size: 90px;
+    font-size: 6rem;
     margin: 0;
 }
 
@@ -39,7 +39,7 @@
     content: "→";
     /* Arrow symbol */
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 1rem;
     opacity: 0;
     transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
     transform: translateX(-10px);
