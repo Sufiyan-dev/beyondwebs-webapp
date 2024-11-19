@@ -1,0 +1,92 @@
+/* Main wrapper */
+.work-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8rem 6rem;
+    /* background-color: white; */
+    color: white;
+    transition: background-color 0.5s ease; 
+}
+
+.work-wrapper.light-bg {
+    background-color: white;
+    color: white;
+}
+
+.work-wrapper.dark-bg {
+    background-color: black;
+    color: white;
+}
+
+
+/* Title */
+.title > h1 {
+    font-size: 3.8rem;
+    margin-bottom: 0;
+}
+
+/* Paragraph */
+.para > p {
+    font-size: large;
+    max-width: 45rem;
+    text-align: start;
+}
+
+/* Slider */
+.slider {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.slide {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-heading-wrapper {
+    text-align: start;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.slide > img  {
+    width: 25rem;
+    height: 15rem;
+}
+
+/* See more work action button */
+.see-more-act-btn {
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.see-more-act-btn:after {
+    content: "→";
+    /* Arrow symbol */
+    display: inline-block;
+    margin-left: 1rem;
+    opacity: 0;
+    transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transform: translateX(-10px);
+}
+
+.see-more-act-btn:hover:after {
+    opacity: 1;
+    transform: translateX(0);
+    /* Moves the arrow smoothly */
+}

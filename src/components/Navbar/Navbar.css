@@ -59,19 +59,28 @@
 .navbar-item {
     margin-left: 20px;
     cursor: pointer;
+    font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .navbar-item-highlight {
-    background-color: #fff;
-    color: #000;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #e0e0e0;
+    color: black;
+    align-items: center;
+    text-align: center;
+    /* height: 3rem; */
+    /* width: 10rem; */
+    padding: 0.5rem;
+    /* font-size: larger; */
+    /* font-weight: 700; */
+    border-radius: 10px 0px 10px 0px;
 }
 
 .navbar-item-highlight:hover {
-    background-color: #e0e0e0;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; /* Adjust the values as needed */
+    transition: box-shadow 0.7s ease; /* Smooth transition for the glow effect */
+    transition: border-radius 0.7s ease;
 }
 
 @media (max-width: 768px) {
