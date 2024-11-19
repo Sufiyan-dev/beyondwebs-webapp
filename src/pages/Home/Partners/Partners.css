@@ -1,0 +1,17 @@
+.partner-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.partner-slider-wrapper {
+    width: 100%;
+    margin: 2rem 5rem;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.partners-slide > img {
+    width: 6rem;
+    height: 3rem;
+}
