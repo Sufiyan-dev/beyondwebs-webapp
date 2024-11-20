@@ -74,13 +74,12 @@
     /* font-size: larger; */
     /* font-weight: 700; */
     border-radius: 10px 0px 10px 0px;
+    transition: box-shadow 0.7s ease, border-radius 0.7s ease;
 }
 
 .navbar-item-highlight:hover {
     border-radius: 0px 10px 0px 10px;
     box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; /* Adjust the values as needed */
-    transition: box-shadow 0.7s ease; /* Smooth transition for the glow effect */
-    transition: border-radius 0.7s ease;
 }
 
 @media (max-width: 768px) {
