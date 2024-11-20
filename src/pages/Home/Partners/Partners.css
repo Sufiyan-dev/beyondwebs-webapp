@@ -32,12 +32,12 @@
     font-weight: 700;
     text-align: start;
     margin: 0;
-    line-height: 14vh;
+    line-height: initial;
 }
 
 .partner-slider-wrapper {
     /* width: 100%; */
-    margin: 2rem 5rem;
+    margin: 2rem 5rem 8rem 5rem;
     /* display: flex; */
     /* align-items: center; */
 }
