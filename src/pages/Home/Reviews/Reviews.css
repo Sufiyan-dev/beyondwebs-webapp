@@ -1,0 +1,86 @@
+.reviews-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 18vh 6vw;
+    color: white;
+}
+
+.reviews-main-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews-title-wrapper {
+    padding: 8vh 0vh 3vh 0vh;
+    text-align: start;
+}
+
+.reviews-title-wrapper > h1 {
+    font-weight: 300;
+}
+
+.reviews-subtitle-wrapper {
+    padding: 0vh 0vh 8vh 0vh;
+}
+
+.reviews-subtitle-wrapper > p {
+    font-size: 3.5rem;
+    max-width: 34vw;
+    font-weight: 700;
+    text-align: start;
+    margin: 0;
+    line-height: initial;
+}
+
+.reviews-slider-wrapper {
+    width: 700px;
+}
+
+.reviews-slide-review {
+    font-size: 1.125rem;
+    text-align: start;
+}
+
+.reviews-slide-author-wrapper {
+    text-align: start;
+}
+
+.reviews-slide-author > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: large;
+    transition: color 0.3s ease;
+}
+
+.reviews-slide-author > a:hover {
+    color: chocolate;
+}
+.custom-arrow {
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    color: white;  /* Default arrow color */
+    padding: 0.5rem;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 20px;
+    transition: stroke 0.3s ease;  /* Ensure smooth transition */
+  }
+  
+
+/* Hover effect on SVG stroke color */
+.custom-arrow:hover svg {
+    stroke: chocolate;  /* Change the stroke color on hover */
+  }
+  
+  .custom-prev {
+    left: 590px;
+    top: 300px;
+  }
+  
+  .custom-next {
+    right: 25px;
+    top: 300px;
+  }
+  

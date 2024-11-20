@@ -1,6 +1,7 @@
 import "./Home.css"
 import Main from "./Main/Main"
 import Partners from "./Partners/Partners"
+import Reviews from "./Reviews/Reviews"
 import Services from "./Services/Services"
 import Work from "./Work/Work"
 
@@ -11,6 +12,7 @@ const Home = () => {
       <Services/>
       <Work/>
       <Partners/>
+      <Reviews/>
     </div>
   )
 }
