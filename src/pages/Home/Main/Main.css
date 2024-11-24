@@ -1,7 +1,7 @@
 .main-wrapper {
     display: flex;
     justify-content: center;
-    background-color: gray;
+    background-color: black;
     padding-top: 10rem;
     min-height: 40rem;
     color: white;
