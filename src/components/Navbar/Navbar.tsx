@@ -24,7 +24,7 @@ const Navbar = () => {
   <div className={`navbar ${scrolled ? 'scrolled' : ''}`}>
     <div className="navbar-wrapper">
       <div className="navbar-left">
-        <h1 className="navbar-logo">Logo</h1>
+        <h1 className="navbar-logo">BeyondWebs</h1>
       </div>
       <div className="navbar-right">
         <ul className="navbar-menu">

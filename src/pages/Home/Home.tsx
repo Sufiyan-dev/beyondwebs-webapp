@@ -3,6 +3,7 @@ import Main from "./Main/Main"
 import Partners from "./Partners/Partners"
 import Reviews from "./Reviews/Reviews"
 import Services from "./Services/Services"
+import StartProject from "./StartProject/StartProject"
 import Work from "./Work/Work"
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Work/>
       <Partners/>
       <Reviews/>
+      <StartProject/>
     </div>
   )
 }
