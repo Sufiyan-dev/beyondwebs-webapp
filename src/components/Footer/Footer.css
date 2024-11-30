@@ -1,4 +1,49 @@
-.footer {
-    height: 800px;
-    margin: 100px 0px;
+.footer-main-wrapper {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.footer-logo-wrapper {
+    margin: 0;
+}
+
+.footer-contact-wrapper {
+    width: 50%;
+}
+
+.footer-sub-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-socials-wrapper {
+    display:  flex;
+    gap: 1rem;
+
+}
+
+.footer-socials-wrapper > span {
+    font-size: larger;
+}
+
+.footer-email > a {
+    color: white;
+    text-decoration: none;
+}
+
+.hover-class {
+    transition: color 0.7s ease;
+}
+
+.hover-class:hover {
+    color: orange;
 }
