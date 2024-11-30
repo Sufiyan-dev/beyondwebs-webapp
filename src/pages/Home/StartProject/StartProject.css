@@ -1,0 +1,71 @@
+.start-project-main-wrapper {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14vh 1vw;
+}
+.start-project-left-wrapper {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    max-width: 46vw;
+}
+
+.start-project-left-wrapper > h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.start-project-left-wrapper > h1 {
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    line-height: 1.2;
+}
+
+.start-project-right-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-project-btn-wrapper {
+    margin-top: 4rem;
+}
+
+.start-project-btn {
+    width: 15vw;
+    height: 6vh;
+    margin-top: 4rem;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    /* height: 3rem; */
+    /* width: 10rem; */
+    padding: 0.5rem;
+    font-size: larger;
+    /* font-weight: 700; */
+    border-radius: 10px 0px 10px 0px;
+    transition: box-shadow 0.7s ease, border-radius 0.7s ease;
+}
+
+.start-project-btn:hover {
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0 0 10px orange, 0 0 20px orange, 0 0 30px orange; /* Adjust the values as needed */
+}
+
+.start-project-right-wrapper > h1 {
+    font-size: 12rem;
+    margin: 0;
+    /* color: white; */
+}
+
+.start-project-action {
+    color: white;
+    transition: color 0.7s ease;
+}
+
+.start-project-action:hover {
+    color: black;
+}

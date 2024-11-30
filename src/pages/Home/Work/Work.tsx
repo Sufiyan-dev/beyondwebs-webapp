@@ -13,12 +13,12 @@ const Work = () => {
     const workWrapperRef = useRef<HTMLDivElement>(null);
 
     const sliderData = [
-        {title: "Heading", imageUrl: "/images/image.png"},
-        {title: "Heading", imageUrl: "/images/image.png"},
-        {title: "Heading", imageUrl: "/images/image.png"},
-        {title: "Heading", imageUrl: "/images/image.png"},
-        {title: "Heading", imageUrl: "/images/image.png"},
-        {title: "Heading", imageUrl: "/images/image.png"},
+        {title: "California", imageUrl: "/images/WhatHaveWorked/california.png"},
+        {title: "Jivati", imageUrl: "/images/WhatHaveWorked/jivati.png"},
+        {title: "Blizz", imageUrl: "/images/WhatHaveWorked/blizz.png"},
+        {title: "ZAZA THC", imageUrl: "/images/WhatHaveWorked/zaza-thc.png"},
+        {title: "First Gen", imageUrl: "/images/WhatHaveWorked/first-gen.png"},
+        {title: "Torch", imageUrl: "/images/WhatHaveWorked/torch.png"},
     ]
 
     const settings = {

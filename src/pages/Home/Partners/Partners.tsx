@@ -3,12 +3,14 @@ import "./Partners.css";
 import { useEffect, useRef } from "react";
 
 const sliderData = [
-    {imageUrl: "/images/image2.png"},
-    {imageUrl: "/images/image2.png"},
-    {imageUrl: "/images/image2.png"},
-    {imageUrl: "/images/image2.png"},
-    {imageUrl: "/images/image2.png"},
-    {imageUrl: "/images/image2.png"},
+    {imageUrl: "/images/Partners/chapman.png"},
+    {imageUrl: "/images/Partners/chiropractor.png"},
+    {imageUrl: "/images/Partners/haven.png"},
+    {imageUrl: "/images/Partners/jivati.png"},
+    {imageUrl: "/images/Partners/jubi-bar.png"},
+    {imageUrl: "/images/Partners/space-gods.png"},
+    {imageUrl: "/images/Partners/treetop.png"},
+    {imageUrl: "/images/Partners/zaza.png"},
 ]
 
 const settings: Settings = {
@@ -17,8 +19,8 @@ const settings: Settings = {
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 2000,
+    autoplay: true,
+    autoplaySpeed: 2000,
 };
 
 const Partners = () => {
