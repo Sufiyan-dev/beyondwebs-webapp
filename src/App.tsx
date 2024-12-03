@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home/Home'
 import Projects from './pages/Projects/Projects'
+import NotFound from './pages/NotFound/NotFound'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="*" element={<NotFound />} /> {/* 404 Route */}
         </Routes>
       </main>
 
