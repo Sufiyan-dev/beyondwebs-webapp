@@ -56,7 +56,7 @@ const Services = () => {
     }, []);
 
   return (
-    <div className="services-wrapper" ref={servicesWrapperRef}>
+    <div id="service-section" className="services-wrapper" ref={servicesWrapperRef}>
       <div className="services">
         <div className="title-small">SERVICES</div>
         <h1>
