@@ -32,7 +32,6 @@ const Partners = () => {
         const handleScroll = () => {
             if (partnersWrapperRef.current) {
                 const scrollY = window.scrollY;
-                console.log("y",scrollY)
                 // Change the background color based on scroll position
                 if (scrollY < 2350) {
                     partnersWrapperRef.current.style.backgroundColor = "black";

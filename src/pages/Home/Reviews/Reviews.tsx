@@ -94,7 +94,6 @@ const Reviews = () => {
       const handleScroll = () => {
           if (reviewsWrapperRef.current) {
               const scrollY = window.scrollY;
-              console.log("y",scrollY)
               // Change the background color based on scroll position
               if (scrollY < 2850) {
                 reviewsWrapperRef.current.style.backgroundColor = "white";

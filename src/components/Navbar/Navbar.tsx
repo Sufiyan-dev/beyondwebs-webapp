@@ -3,14 +3,27 @@ import "./Navbar.css"
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [shadowColor, setShadowColor] = useState('rgba(255, 255, 255, 0.5)'); // Default to a light shadow.
 
   const handleScroll = () => {
     const offset = window.scrollY;
-    if (offset > 50) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
+    setScrolled(offset > 50);
+
+    // Detect background color of the current section
+    const sections = document.querySelectorAll("section"); // Assuming you have `section` tags
+    let currentShadowColor = 'rgba(255, 255, 255, 0.5)'; // Default shadow
+
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= 0 && rect.bottom > 0) {
+        console.log(window.getComputedStyle(section).backgroundColor);
+        // Check for background color or class
+        const bgColor = window.getComputedStyle(section).backgroundColor;
+        currentShadowColor = bgColor === 'rgb(0, 0, 0)' ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.2)';
+      }
+    });
+
+    setShadowColor(currentShadowColor);
   };
 
   useEffect(() => {
@@ -29,7 +42,10 @@ const Navbar = () => {
 
 
   return (
-  <div className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+  <div className={`navbar ${scrolled ? 'scrolled' : ''}`} 
+  style={{
+    boxShadow: scrolled ? `0 0px 30px ${shadowColor}` : "none",
+  }}>
     <div className="navbar-wrapper">
       <div className="navbar-left">
         <h1 className="navbar-logo">BeyondWebs</h1>
