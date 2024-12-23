@@ -52,9 +52,9 @@ const Navbar = () => {
       </div>
       <div className="navbar-right">
         <ul className="navbar-menu">
-          <li className="navbar-item underline-effect" onClick={scrollToServiceSection}>Our Services</li>
-          <li className="navbar-item">The Work</li>
-          <li className="navbar-item">The Team</li>
+          <li className="navbar-item underline-effect" onClick={scrollToServiceSection}>Services</li>
+          <li className="navbar-item">Projects</li>
+          <li className="navbar-item">About</li>
           <li className="navbar-item navbar-item-highlight">Start Your Project</li>
         </ul>
       </div>
