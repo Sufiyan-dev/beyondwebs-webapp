@@ -66,6 +66,18 @@
     font-size: large;
 }
 
+.navbar-item a {
+    color: inherit; /* Use the inherited text color */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  /* Active link styles
+  .navbar-item a.active {
+    color: orange; Change text color to orange 
+     font-weight: bold; Make the active link bold 
+
+  } */
+
 .navbar-item-highlight {
     background-color: #e0e0e0;
     color: black;
