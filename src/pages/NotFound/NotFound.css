@@ -1,0 +1,22 @@
+
+
+.not-found-wrapper {
+    text-align: center;
+    padding: 50px;
+    padding-top: 150px;
+    background-color: black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.not-found-wrapper > h1 {
+    margin: 0;
+}
+
+.link-to-home {
+    color: white;
+    text-decoration: underline;
+}

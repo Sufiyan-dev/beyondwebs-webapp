@@ -1,8 +1,15 @@
+import StartProject from "../Home/StartProject/StartProject"
+import Main from "./Main/Main"
 import "./Projects.css"
+import ProjectsWeBuild from "./ProjectsWeBuild/ProjectsWeBuild"
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className="project-wrapper">
+      <Main/>
+      <ProjectsWeBuild/>
+      <StartProject/>
+    </div>
   )
 }
 

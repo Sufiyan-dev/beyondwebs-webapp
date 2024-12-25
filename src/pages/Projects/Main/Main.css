@@ -1,0 +1,19 @@
+.project-main-wrapper {
+    min-height: 40rem;
+    padding-top: 10rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.project-main {
+    margin-top: 5rem;
+    width: 90%;
+    text-align: start;
+}
+
+.project-main > h1 {
+    font-size: 6rem;
+    margin: 0;
+}
