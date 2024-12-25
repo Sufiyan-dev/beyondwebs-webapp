@@ -1,0 +1,43 @@
+.projects-we-build-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: 5rem;
+  }
+  
+  .projects-we-build-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 20px; /* Spacing between grid items */
+    max-width: 90%; /* Optional: limit the width of the grid container */
+  }
+  
+  .project-we-build-project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    /* border: 1px solid #ccc; Optional: border for each grid item */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    /* background-color: #fff; Optional: background color */
+  }
+
+  .project-we-build-project > h1 {
+    transition: color 0.5s ease;
+  }
+
+  .project-we-build-project > h1:hover {
+    color: orange;
+  }
+  
+  .project-we-build-project img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+    /* border-radius: 4px; Optional: rounded image corners */
+    max-height: 14rem;
+    object-fit: cover;
+  }
+  
