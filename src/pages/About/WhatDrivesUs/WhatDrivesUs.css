@@ -1,0 +1,45 @@
+.about-what-drive-us-wrapper {
+    background-color: white;
+    padding: 10rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-what-drive-us-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+}
+
+
+.about-what-drive-us-main-wrapper > h1 {
+    margin: 0;
+    font-size: x-large;
+    border-bottom: 0.5px solid grey;
+    width: 100%;
+    text-align: start;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    width: 40%;
+    letter-spacing: 2px;
+}
+
+.about-what-drive-us-main-wrapper > p {
+    margin: 1rem 0 0 0;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: start;
+    line-height: normal;
+}
+
+.about-what-drive-us-hover-creative {
+    color: white;
+    border-bottom: 1px solid black;
+    transition: color 0.5s ease;
+}
+
+.about-what-drive-us-hover-creative:hover {
+    color: black;
+}
